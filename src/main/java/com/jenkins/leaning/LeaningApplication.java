@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LeaningApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Welcome from Maven Project!!");
+		System.out.println("Welcome from Maven Project, Have a Nice Day!!");
 		SpringApplication.run(LeaningApplication.class, args);
 	}
 
