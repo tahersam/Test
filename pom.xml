@@ -12,6 +12,7 @@
 	<artifactId>leaning</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>leaning</name>
+	<packaging>war</packaging>
 	<description>Jenkins Learning</description>
 	<url/>
 	<licenses>
