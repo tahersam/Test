@@ -6,7 +6,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class LeaningApplication {
+public class LeaningApplication extends SpringBootServletInitializer  {
 
 	public static void main(String[] args) {
 		System.out.println("Welcome from Maven Project");
