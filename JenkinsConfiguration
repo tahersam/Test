@@ -12,21 +12,13 @@ pipeline{
         }
         stage("Build"){
             steps{
-			if (isUnix()) {
-                        sh "mvn -DskipTest clean package"
-            } else {
-                        bat "mvn -DskipTest clean package"
-            }
+                bat "mvn -DskipTest clean package"
             }
         }
         stage("Test"){
 		
             steps{
-			if (isUnix()) {
-                        sh "mvn test"
-            } else {
-                        bat "mvn test"
-            }
+                bat "mvn test"
             }
         }
     }
